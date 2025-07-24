@@ -22,16 +22,8 @@ public class Increment01 {
 
 
 
-        int total = 1, a = 1;
-        total += ++a; // 1+2
-        total += ++a; // "+3
-        total += ++a;
-        total += ++a;
-        total += ++a;
-        total += ++a;
-        total += ++a;
-        total += ++a;
-        total += ++a; // "+10
+        int total = 0, a = 0;
+        while (a < 10){total += ++a;} // 반복문 (1+2+3+...+10)
         System.out.println("1부터 10까지의 합은 " + total + "입니다.");
     }
 }
