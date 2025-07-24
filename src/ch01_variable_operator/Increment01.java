@@ -24,14 +24,14 @@ public class Increment01 {
 
         int total = 1, a = 1;
         total += ++a; // 1+2
-        total += ++a; // 2+3
+        total += ++a; // "+3
         total += ++a;
         total += ++a;
         total += ++a;
         total += ++a;
         total += ++a;
         total += ++a;
-        total += ++a; // 9+10
+        total += ++a; // "+10
         System.out.println("1부터 10까지의 합은 " + total + "입니다.");
     }
 }
