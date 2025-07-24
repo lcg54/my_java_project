@@ -7,7 +7,7 @@ public class AreaTest {
         double a = pi * rad * rad;
         System.out.println("반지름이 " + rad + "일 때 " + "원의 면적은 " + a + "입니다.");
 
-        double b = 4/3 * pi * Math.pow(rad,3);
+        double b = 4 * pi * Math.pow(rad,3) / 3;
         System.out.println("반지름이 " + rad + "일 때 " + "구의 부피는 " + b + "입니다.");
     }
 }
