@@ -21,7 +21,7 @@ public class Add {
         y = 8;
         z = x * y;
 
-        message = x + " 곱하기 " + y + "은 " + z + "입니다.";
+        message = x + " 곱하기 " + y + "은(는) " + z + "입니다.";
         System.out.println(message);
     }
 }
