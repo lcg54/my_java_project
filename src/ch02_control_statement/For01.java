@@ -11,7 +11,7 @@ public class For01 {
         System.out.println("총합02 : " + total);
 
         total = 0;
-        for (int i = 97; i > 1; i -= 5) {total += i;} // 07 + 92 + 87 + ... + 2
+        for (int i = 97; i > 1; i -= 5) {total += i;} // 97 + 92 + 87 + ... + 2
         System.out.println("총합03 : " + total);
 
         total = 0;
