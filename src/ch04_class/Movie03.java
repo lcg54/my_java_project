@@ -30,9 +30,7 @@ public class Movie03 {
     }
     public void setRuntime(int runtime) {this.runtime = runtime;}
 
-    public String getAudience() {
-        return "누적 관객수 : " + audience + "만 명";
-    }
+    public String getAudience() {return "누적 관객수 : " + audience + "만 명";}
     public void setAudience(int audience) {this.audience = audience;}
 
     public String getRating() {
