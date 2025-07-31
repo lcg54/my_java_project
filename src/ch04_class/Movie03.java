@@ -2,9 +2,9 @@ package ch04_class;
 
 public class Movie03 {
     //영화 : 제목, 감독, 주연, 개봉일, 상영시간, 누적관객수, 평가
-    String title, director, main_actor;
-    int open_date, runtime, audience;
-    double rating;
+    private String title, director, main_actor;
+    private int open_date, runtime, audience;
+    private double rating;
 
     public String getTitle() {return "제목 : " + title;}
     public void setTitle(String title) {this.title = title;}
