@@ -1,15 +1,15 @@
 package ch04_class;
 
 public class ShapeArea {
-    final double PI = 3.141593;
+    static final double PI = 3.14;
 
-     void area(int a) {
-        System.out.println(a*a*PI);
+     void area(int rad) {
+        System.out.println(rad*rad*PI);
     }
-     void area(int a, int b) {
-        System.out.println(a*b);
+     void area(int width, int h) {
+        System.out.println(width*h);
     }
-     void area(int a,int b,int c) {
-        System.out.println((a+b)*c/2.0);
+     void area(int top,int bottom,int width) {
+        System.out.println((top+bottom)*width/2.0);
     }
 }
