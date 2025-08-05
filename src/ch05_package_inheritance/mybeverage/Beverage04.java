@@ -17,5 +17,4 @@ public class Beverage04 {
         System.out.println("음료 이름 : " + name);
         System.out.println("단가 : " + price);
     }
-
 }
