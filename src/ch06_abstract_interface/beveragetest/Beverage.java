@@ -4,17 +4,17 @@ public abstract class Beverage {
     private String name;
     private double price;
 
-    public Beverage(String name, double price) {
+    protected Beverage(String name, double price) {
         this.name = name;
         this.price = price;
     }
-    public final void showData(){
+    protected final void showData(){
         System.out.print("음료 " + name + "의 단가는 ");
         System.out.println((int)price + "원입니다.");
     }
-    public String getName() {
+    protected String getName() {
         return name;
     }
-    public abstract void drink();
-    public abstract void make();
+    protected abstract void drink();
+    protected abstract void make();
 }
