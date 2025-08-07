@@ -36,8 +36,6 @@ public class CarMain {
             mycar[i].display();
 
             mycar[i].turnOff(); // 시동 끄기
-
-            //이걸 탬플릿메소드로 정리하면 더 깔끔할듯;
         }
     }
 }

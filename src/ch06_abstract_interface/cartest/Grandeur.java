@@ -8,13 +8,21 @@ public class Grandeur extends Car {
         this.fuel = fuel;
     }
     @Override
-    public void sayHello(String getName, int repeatCount){
-        for (int i = 0; i < repeatCount; i++) {
-            System.out.println("안녕~~방가워~~" + getName);
+    public String toString() {
+        String remark = "";
+        if (fuel >= 20){
+            remark = "excellent";
+        }else if (fuel >= 10){
+            remark = "good";
+        }else{
+            remark = "poor";
         }
+        return info() + "\n연비 : " + fuel
+                + "\n연비 메모 : " + remark;
     }
     @Override
-    public String toString() {
-        return info() + "\n연비 : " + fuel;
+    public void display(){
+        String mile = String.format("%.3f",getCurrentSpeed()/1.6);
+        System.out.println(getName() + "의 현재 속도는 " + mile + "mile 입니다.");
     }
 }
