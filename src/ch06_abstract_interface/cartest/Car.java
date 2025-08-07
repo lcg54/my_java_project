@@ -30,9 +30,9 @@ public abstract class Car implements Speed, Display {
         return name;
     }
 
-    public abstract void sayHello(String getName, int repeatCount); // 굳이 getName 으로 받으래서 서브클래스에 구현하는것
+    public abstract void sayHello(String getName, int repeatCount); // 굳이 getName 으로 받는 이유가?
 
-    public final String info() { // 서브클래스에서 toString 내부에 호출. toString 자체는 암시적으로 호출된 상태이므로 명시할 필요 없이 서브클래스에만 구현.
+    public final String info() { // 서브클래스에서 toString 내부로 호출할 메소드. toString 자체는 암시적으로 호출된 상태이므로 명시할 필요 없이 서브클래스에만 구현.
         return "이름 : " + name
                 + "\n단가 : " + price + "원"
                 + "\n열쇠 타입 : " + keyType
