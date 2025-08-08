@@ -20,7 +20,7 @@ public class LottoTest {
                 }
                 System.out.println("입니다.");
             }
-            lotto.add(su); // 6개에 if문 돌린 후에 while문 조건이 7개 미만이므로 한번 더 뽑음
+            lotto.add(su); // 6개에 if문 돌린 후에 while문 조건이 7개 미만이므로 한개 더 뽑음
             secondno = su; // 뽑은 수를 2등 번호에 저장
         }
         System.out.println("2등 번호는 " + secondno + "번입니다.");
